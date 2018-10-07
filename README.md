@@ -1,15 +1,14 @@
-# @marcneander/eslint-config-react
+# @marcneander/stylelint-config
 ## Install
 
-`yarn add --dev @marcneander/eslint-config-react`
+`yarn add --dev @marcneander/stylelint-config`
 
 ## Usage
-Edit .eslintrc.js
-```js
-module.exports = {
-    extends: [
-        '@marcneander/react'
-    ],
-    ...
+Edit .stylelintrc
+```json
+{
+    "extends": [
+        "@marcneander/stylelint-config"
+    ]
 }
 ```
