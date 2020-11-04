@@ -1,6 +1,6 @@
 {
   "name": "@marcneander/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Marc Neander <marcneander@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -21,9 +21,9 @@
     "css"
   ],
   "peerDependencies": {
-    "stylelint": "^8.3.0 || ^9.0.0"
+    "stylelint": "*"
   },
   "dependencies": {
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-standard": "^20.0.0"
   }
 }
